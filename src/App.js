@@ -16,7 +16,7 @@ const cv = {
   experience: [
     {
       role: "Magang – PT Serasi Shipping Indonesia",
-      date: "Sept 2, 2024 – Nov 2, 2024",
+      date: "Sept 2, 2024 – Des 2, 2024",
       bullets: [
         "Menyiapkan dokumen administratif untuk keperluan pengajuan ke Kantor Imigrasi.",
         "Berpartisipasi dalam kegiatan sandar dan lepas kapal untuk kelancaran operasional.",
@@ -56,11 +56,9 @@ const cv = {
       role: "Project Leader",
       date: "November 2023",
       desc: "Bertanggung jawab mengatur keseluruhan jalannya kegiatan event Futsal, termasuk perencanaan timeline, koordinasi lapangan dan wasit, serta pengelolaan anggota tim untuk memastikan acara berjalan lancar dan sesuai rencana.",
-      image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600",
-      trailer: "https://www.youtube.com/embed/your-trailer-id",
+      image: "/bonding.jpg",
       docs: [
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800",
-        "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800"
+        "/bonding1.jpg",
       ],
     },
     {
@@ -81,6 +79,19 @@ const cv = {
       role: "Ketua Pelaksana",
       date: "Februari 2023",
       desc: "Memimpin pelaksanaan, proposal, timeline, dan kebutuhan teknis workshop.",
+      image: "glo.PNG",
+      trailer: "https://www.youtube.com/embed/your-trailer-id3",
+      docs: [
+        "/dokumentasi glo.jpeg",
+        "/sertifikat glo.png",
+        "/sertif glo.jpg"
+      ]
+    },
+    {
+      title: "Talkshow The Eight Show “Achievements of Basketball Athletes",
+      role: "Kameramen & Editor",
+      date: "November 2024",
+      desc: "melakukan proses pengambilan gambar selama pelaksanaan talkshow serta melakukan penyuntingan video dan menghasilkan tayangan yang menarik di youtube.",
       image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
       trailer: "https://www.youtube.com/embed/your-trailer-id3",
       docs: "https://www.youtube.com/embed/your-docs-id3",
@@ -92,7 +103,7 @@ const cv = {
       { name: "Microsoft Office", level: 90 },
       { name: "Canva", level: 85 },
       { name: "CapCut", level: 80 },
-      { name: "VN", level: 75 }
+      { name: "VN", level: 80 }
     ],
     soft: [
       { name: "Effective Communication", level: 95 },
@@ -333,17 +344,18 @@ ${message}
                 </div>
                 {/* Name */}
                 <h1
-                  className="text-6xl lg:text-7xl font-bold leading-tight animate-gradient-text"
+                  className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-gradient-text"
                   data-aos="fade-up"
                 >
-                  <span className="bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
+                  <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
                     {cv.name.split(' ')[0]}
                   </span>
                   <br />
-                  <span className="text-5xl lg:text-6xl bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+                  <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
                     {cv.name.split(' ').slice(1).join(' ')}
                   </span>
                 </h1>
+                
                 {/* Headline */}
                 <p
                   className="text-2xl text-gray-600 dark:text-gray-300 max-w-xl leading-relaxed"
@@ -355,7 +367,7 @@ ${message}
               </div>
               {/* Summary */}
               <p
-                className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl leading-relaxed"
+                className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-2xl leading-relaxed"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
@@ -399,7 +411,7 @@ ${message}
               data-aos-delay="400"
             >
               <div 
-                className={`card-container w-96 h-[500px] perspective-1000 cursor-pointer ${isAnimating ? 'pointer-events-none' : ''}`}
+                className={`card-container w-full max-w-md sm:w-96 h-[420px] sm:h-[500px] perspective-1000 cursor-pointer ${isAnimating ? 'pointer-events-none' : ''}`}
                 onClick={handleCardFlip}
               >
                 <div className={`card relative w-full h-full transition-transform duration-600 preserve-3d ${isFlipped ? 'rotate-y-180' : ''}`}>
@@ -417,9 +429,9 @@ ${message}
                         {/* Profile Image */}
                         <div className="relative mb-6 group">
                           <div className="absolute -inset-4 bg-white/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-                          <div className="relative w-32 h-32 rounded-2xl border-4 border-white/80 overflow-hidden shadow-2xl">
+                          <div className="relative w-48 h-48 sm:w-40 sm:h-40 rounded-2xl border-4 border-white/80 overflow-hidden shadow-2xl">
                             <img 
-                              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=160&h=160&fit=crop&crop=face" 
+                              src="/foto profil.jpg" 
                               alt={cv.name}
                               className="w-full h-full object-cover"
                             />
@@ -433,21 +445,7 @@ ${message}
                         <h2 className="text-3xl font-bold text-center mb-2">Muhamad Alfito Ramadhan</h2>
                         <p className="text-white/80 text-center mb-6">Communications Professional</p>
 
-                        {/* Stats */}
-                        <div className="grid grid-cols-3 gap-4 w-full mb-6">
-                          <div className="text-center p-3 bg-white/10 rounded-xl backdrop-blur-sm">
-                            <div className="text-lg font-bold">3.54</div>
-                            <div className="text-xs opacity-80">GPA</div>
-                          </div>
-                          <div className="text-center p-3 bg-white/10 rounded-xl backdrop-blur-sm">
-                            <div className="text-lg font-bold">2+</div>
-                            <div className="text-xs opacity-80">Years Exp</div>
-                          </div>
-                          <div className="text-center p-3 bg-white/10 rounded-xl backdrop-blur-sm">
-                            <div className="text-lg font-bold">10+</div>
-                            <div className="text-xs opacity-80">Projects</div>
-                          </div>
-                        </div>
+                       
 
                         {/* Flip Hint */}
                         <div className="flex items-center gap-2 text-white/60 text-sm">
@@ -516,10 +514,10 @@ ${message}
         <section id="experience" className="py-20 section-bg backdrop-blur-sm">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold heading-gradient mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold heading-gradient mb-4">
                 Professional Journey
               </h2>
-              <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+              <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                 My path through professional experiences and organizational roles
               </p>
             </div>
@@ -554,17 +552,17 @@ ${message}
                     "></div>
                     {/* Card */}
                     <div className={`
-                      mt-12 md:mt-0
+                      mt-8 md:mt-0
                       w-full md:w-5/12
-                      ${idx % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}
+                      ${idx % 2 === 0 ? 'md:pr-6 lg:pr-12' : 'md:pl-6 lg:pl-12'}
                     `}>
-                      <article className="group card-bg rounded-3xl p-6 md:p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-3"
+                      <article className="group card-bg rounded-3xl p-4 sm:p-6 md:p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-3"
                         data-aos="zoom-in-up"
                         data-aos-delay={200 + 100 * idx}
                       >
                         <div className="text-sm font-semibold text-blue-600 dark:text-blue-400 mb-3">{exp.date}</div>
                         <h3 className="text-xl md:text-2xl font-bold mb-4">{exp.role}</h3>
-                        <ul className="space-y-3">
+                        <ul className="space-y-3 text-sm sm:text-base">
                           {exp.bullets.map((bullet, i) => (
                             <li
                               key={i}
@@ -577,6 +575,23 @@ ${message}
                             </li>
                           ))}
                         </ul>
+
+                        {/* tombol lihat dokumentasi untuk setiap experience */}
+                        <div className="mt-4 flex items-center justify-between">
+                          <span className="px-4 py-2 bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium">
+                            {exp.date}
+                          </span>
+                          <button
+                            type="button"
+                            onClick={() => { setModalProject({ title: exp.role, docs: exp.docs || [] }); setModalType('docs'); }}
+                            className="flex items-center gap-2 text-sm font-semibold text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                          >
+                            Lihat Dokumentasi
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                            </svg>
+                          </button>
+                        </div>
                       </article>
                     </div>
                   </div>
@@ -590,10 +605,10 @@ ${message}
         <section id="projects" className="py-20 bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 bg-clip-text text-transparent mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 bg-clip-text text-transparent mb-4">
                 Featured Projects
               </h2>
-              <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+              <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                 Creative works and professional case studies
               </p>
             </div>
@@ -611,7 +626,7 @@ ${message}
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-100 object-cover rounded-2xl mb-6" // ubah dari h-48 ke h-64
+                    className="w-full h-48 sm:h-56 md:h-64 lg:h-80 object-cover rounded-2xl mb-6"
                     style={{objectPosition: 'center'}}
                   />
                   <div className="relative z-10">
@@ -623,7 +638,7 @@ ${message}
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">{project.title}</h3>
                     <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">{project.desc}</p>
-                    <div className="flex items-center justify-between">
+                    <div className="flex items-center justify-between gap-4">
                       <span className="px-4 py-2 bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium">
                         {project.role}
                       </span>
@@ -649,7 +664,7 @@ ${message}
         <section id="skills" className="py-20 bg-white dark:bg-gray-800/50 backdrop-blur-sm">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 bg-clip-text text-transparent">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 bg-clip-text text-transparent">
                 Skills & Expertise
               </h2>
             </div>
@@ -658,7 +673,7 @@ ${message}
               {/* Technical Skills */}
               <div className="space-y-8" data-aos="fade-right" data-aos-delay="100">
                 <div className="flex items-center gap-4 mb-8">
-                  <div className="w-14 h-14 bg-blue-100 dark:bg-blue-900/40 rounded-2xl flex items-center justify-center">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 bg-blue-100 dark:bg-blue-900/40 rounded-2xl flex items-center justify-center">
                     <svg className="w-7 h-7 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                     </svg>
@@ -700,7 +715,7 @@ ${message}
               {/* Soft Skills */}
               <div className="space-y-8" data-aos="fade-left" data-aos-delay="200">
                 <div className="flex items-center gap-4 mb-8">
-                  <div className="w-14 h-14 bg-green-100 dark:bg-green-900/40 rounded-2xl flex items-center justify-center">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 bg-green-100 dark:bg-green-900/40 rounded-2xl flex items-center justify-center">
                     <svg className="w-7 h-7 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
@@ -881,7 +896,7 @@ ${message}
                       <span>Send Message via WhatsApp</span>
                       {/* WhatsApp Icon */}
                       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M20.52 3.48A12.07 12.07 0 0012 0C5.37 0 0 5.37 0 12c0 2.12.55 4.19 1.6 6.02L0 24l6.26-1.64A11.94 11.94 0 0012 24c6.63 0 12-5.37 12-12 0-3.2-1.25-6.21-3.48-8.52zM12 22c-1.85 0-3.68-.5-5.26-1.44l-.38-.22-3.72.98.99-3.62-.24-.37A9.94 9.94 0 012 12c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10zm5.2-7.6c-.28-.14-1.65-.81-1.9-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.6.07-.28-.14-1.18-.44-2.25-1.4-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.34.42-.51.14-.17.18-.29.28-.48.09-.19.05-.36-.02-.5-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47-.16-.01-.35-.01-.54-.01-.19 0-.5.07-.76.34-.26.27-1 1-.97 2.44.03 1.44 1.02 2.84 1.16 3.04.14.2 2.01 3.07 4.88 4.19.68.29 1.21.46 1.62.59.68.22 1.3.19 1.79.12.55-.08 1.65-.67 1.89-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.19-.53-.33z"/>
+                        <path d="M20.52 3.48A12.07 12.07 0 0012 0C5.37 0 0 5.37 0 12c0 2.12.55 4.19 1.6 6.02L0 24l6.26-1.64A11.94 11.94 0 0012 24c6.63 0 12-5.37 12-12 0-3.2-1.25-6.21-3.48-8.52zM12 22c-1.85 0-3.68-.5-5.26-1.44l-.38-.22-3.72.98.99-3.62-.24-.37A9.94 9.94 0 012 12c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10zm5.2-7.6c-.28-.14-1.65-.81-1.9-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.6.07-.28-.14-1.18-.44-2.25-1.4-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.34.42-.51.14-.17.18-.29.28-.48.09-.19.05-.36-.02-.5-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47-.16-.01-.35-.01-.54.01-.19 0-.5.07-.76.34-.26.27-1 1-.97 2.44.03 1.44 1.02 2.84 1.16 3.04.14.2 2.01 3.07 4.88 4.19.68.29 1.21.46 1.62.59.68.22 1.3.19 1.79.12.55-.08 1.65-.67 1.89-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.19-.53-.33z"/>
                       </svg>
                     </button>
                   </form>
