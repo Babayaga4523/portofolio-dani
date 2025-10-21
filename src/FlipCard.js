@@ -8,7 +8,7 @@ const cv = {
   email: "Muhamadalfito12@gmail.com",
   phone: "+6288211762079",
   location: "North Bekasi",
-  summary: "Lulusan Ilmu Komunikasi (IPK: 3,54/4,00) yang ahli di bidang produksi media dan manajemenacara. Memiliki pengalaman sebagai Director, Kameramen, dan Editor dalam produksi film semidokumenter. Terlatih dalam kepemimpinan dan manajemen proyek sebagai Ketua PelaksanaWorkshop Penyiaran. Didukung oleh keahlian teknis (Google Workspace, Microsoft Office, Canva, CapCut, VN) serta unggul dalam Komunikasi Efektif, Kolaborasi Tim, Kreativitas, dan PemecahanMasalah.",
+  summary: "Lulusan Ilmu Komunikasi (IPK: 3,54/4,00) yang ahli di bidang produksi media dan manajemenacara. Memiliki pengalaman sebagai Director, Kameramen, dan Editor dalam produksi film semidokumenter. Terlatih dalam kepemimpinan dan manajemen proyek sebagai Ketua PelaksanaWorkshop Penyiaran. Didukung oleh keahlian teknis (Google Workspace, Microsoft Office, Canva,CapCut, VN) serta unggul dalam Komunikasi Efektif, Kolaborasi Tim, Kreativitas, dan PemecahanMasalah.",
   education: [
     { title: "Bachelor of Communications Sciences", school: "Gunadarma University", date: "2024 – Expected 2025", gpa: "3.54/4.00" },
     { title: "Diploma in Public Relations", school: "Akmrtv Jakarta University", date: "2021 – 2023", gpa: "3.62/4.00" },
@@ -22,11 +22,6 @@ const cv = {
         "Berpartisipasi dalam kegiatan sandar dan lepas kapal untuk kelancaran operasional.",
         "Membuat laporan berkala status kedatangan dan keberangkatan kapal.",
       ],
-      docs: [
-        "/serasi 1.jpg",
-        "/serasi 2.jpg",
-        "/serasi 3.jpg"
-      ]
     },
     {
       role: "Magang Reporter – TVR Parlemen DPR RI",
@@ -35,12 +30,6 @@ const cv = {
         "Menyusun daftar pertanyaan dan melakukan peliputan langsung.",
         "Menyusun transkrip wawancara dan merangkai berita berdasarkan data lapangan.",
       ],
-      docs: [
-        "/Dpr 1.PNG",
-        "/Dpr 2.jpg",
-        "/Dpr 3.jpg",
-        "/Dpr 4.jpg",
-      ]
     },
     {
       role: "Anggota Divisi Sumber Daya Manusia – BEM Universitas Akmrtv Jakarta",
@@ -50,9 +39,6 @@ const cv = {
         "Melaksanakan proses rekrutmen anggota baru untuk mendukung regenerasi pengurus BEM.",
         "Mengelola evaluasi dan pengembangan anggota guna meningkatkan kinerja organisasi serta berkoordinasi dengan divisi lain untuk membangun kerja sama internal yang solid.",
       ],
-      docs: [
-        "/Bem.PNG", 
-      ]
     },
     {
       role: "Wakil Ketua – UKM Glo Radio Akmrtv Jakarta",
@@ -62,27 +48,24 @@ const cv = {
         "Mengawasi kinerja setiap divisi (penyiaran, produksi, publikasi, dan humas) agar program kerja berjalan sesuai jadwal dan tujuan organisasi.",
         "Membimbing anggota baru dalam memahami dunia penyiaran serta menginisiasi pelatihan dan workshop untuk meningkatkan kemampuan broadcasting dan produksi.",
       ],
-      docs: [
-        "/IMG_0214.jpeg", 
-      ]
     },
   ],
   projects: [
     {
-      title: "Penanggung Jawab – Bonding Festival \"Champion Spirit: Breaking the Limits\"",
+      title: "Penanggung Jawab – Bonding Festival “Champion Spirit: Breaking the Limits”",
       role: "Project Leader",
       date: "November 2023",
-      desc: "Berhasil Memimpin pelaksanaan sesuai timeline workshop dengan dihadiri oleh 50+ peserta",
+      desc: "Bertanggung jawab mengatur keseluruhan jalannya kegiatan event Futsal, termasuk perencanaan timeline, koordinasi lapangan dan wasit, serta pengelolaan anggota tim untuk memastikan acara berjalan lancar dan sesuai rencana.",
       image: "/bonding.jpg",
       docs: [
         "/bonding1.jpg",
       ],
     },
     {
-      title: "Produksi Film Semi dokumenter: Menyusuri Jejak Rotan",
+      title: "Produksi Film Semi Dokumenter: Menyusuri Jejak Rotan",
       role: "Director, Kameramen & Editor",
       date: "Juli 2024",
-      desc: "Berhasil mengembangkan konsep, pengambilan video, dan penyuntingan menjadi karya semi dokumenter.",
+      desc: "Konsep, pengambilan video, dan penyuntingan menjadi karya semi dokumenter.",
       image: "/menyusuri jejak rotan 2.jpg",
       trailer: "/vidio menyusuri jejak rotan.mp4  ",
       docs: [
@@ -97,19 +80,21 @@ const cv = {
       date: "Februari 2023",
       desc: "Memimpin pelaksanaan, proposal, timeline, dan kebutuhan teknis workshop.",
       image: "glo.PNG",
+      trailer: "https://www.youtube.com/embed/your-trailer-id3",
+      docs: [
+        "/dokumentasi glo.jpeg",
+        "/sertifikat glo.png",
+        "/sertif glo.jpg"
+      ]
     },
     {
-      title: "Talkshow The Eight Show \"Achievements of Basketball Athletes\"",
-      role: "Kameramen & Editor", 
+      title: "Talkshow The Eight Show “Achievements of Basketball Athletes",
+      role: "Kameramen & Editor",
       date: "November 2024",
-      desc: "melakukan proses pengambilan gambar selama pelaksanaan talkshow serta melakukan penyuntingan video dan menghasilkan tayangan yang menarik di youtube.",
-      image: "/latar depan talkshow.jpg",
-      trailer: "https://www.youtube.com/embed/efDnVJS57sc",
-     docs: [
-            "/dokum talkshow.png",
-            "/dokum talkshow 2.jpg",
-            
-      ]
+      desc: "melakukan proses pengambilan gambar selama pelaksanaan talkshow serta melakukan penyuntingan video dan menghasilkan tayangan yang menarik di youtube.",
+      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+      trailer: "https://www.youtube.com/embed/your-trailer-id3",
+      docs: "https://www.youtube.com/embed/your-docs-id3",
     },
   ],
   skills: {
@@ -129,11 +114,10 @@ const cv = {
     ],
   },
   certificates: [
-    { id: 1, title: "Magang PT.Serasi Shipping Indonesia", issuer: "Port Agency", date: "September 2024", image: "/sertif 1.PNG" },
-    { id: 2, title: "Magang TVR Parlemen DPR RI", issuer: "Divisi Reporter", date: "Juli 2023", image:"/sertfif 2.PNG" },
-    { id: 3, title: "BEM Universitas Akmrtv Jakarta", issuer: "Anggota Sumber Daya Masyarakat", date: "2023", image: "/sertif 3.JPG" },
-    { id: 4, title: "UKM Glo Radio Akmrtv Jakarta", issuer: "Wakil Ketua", date: "2023", image: "/sertif 4.jpg" },
-     { id: 5, title: "Workshop Glo Radio", issuer: "Ketua Pelaksana", date: "2023", image: "/sertif 5.png" },
+    { id: 1, title: "Digital Marketing Certification", issuer: "Google Digital Garage", date: "2023", image: "https://images.unsplash.com/photo-1587440871875-191322ee64b0?w=400" },
+    { id: 2, title: "Public Relations Strategy", issuer: "PR Indonesia", date: "2022", image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400" },
+    { id: 3, title: "Media Production Workshop", issuer: "Akmrtv Jakarta", date: "2023", image: "https://images.unsplash.com/photo-1554260570-9140fd3b7614?w=400" },
+    { id: 4, title: "Leadership Training", issuer: "BEM University", date: "2023", image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400" },
   ]
 };
 
@@ -142,16 +126,27 @@ export default function App() {
   const [selectedCertificate, setSelectedCertificate] = useState(null);
   const [isFlipped, setIsFlipped] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
-  const [navOpen, setNavOpen] = useState(false);
   const [modalProject, setModalProject] = useState(null);
-  const [modalType, setModalType] = useState(null);
-  const skillRefs = useRef([]);
+  const [modalType, setModalType] = useState(null); // 'trailer' or 'docs'
+  const [navOpen, setNavOpen] = useState(false);
   const [skillsInView, setSkillsInView] = useState({
     technical: Array(cv.skills.technical.length).fill(false),
     soft: Array(cv.skills.soft.length).fill(false),
   });
 
+  const skillRefs = useRef([]);
 
+  const handleCardFlip = () => {
+    if (isAnimating) return;
+    
+    setIsAnimating(true);
+    setIsFlipped(!isFlipped);
+    
+    // Reset animation state after transition
+    setTimeout(() => {
+      setIsAnimating(false);
+    }, 600);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -203,8 +198,10 @@ ${message}
   }, []);
 
   useEffect(() => {
+    // Listen to AOS events
     const handleAosEvent = (e) => {
       if (e.detail && e.detail.classList) {
+        // Technical
         cv.skills.technical.forEach((_, idx) => {
           if (e.detail.classList.contains(`skill-technical-${idx}`)) {
             setSkillsInView((prev) => ({
@@ -213,6 +210,7 @@ ${message}
             }));
           }
         });
+        // Soft
         cv.skills.soft.forEach((_, idx) => {
           if (e.detail.classList.contains(`skill-soft-${idx}`)) {
             setSkillsInView((prev) => ({
@@ -328,74 +326,74 @@ ${message}
           )}
         </header>
 
-        {/* Hero Section dengan Flip Card yang Diperbaiki */}
-        <section className="pt-28 pb-16 px-4 sm:px-6">
-          <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div className="space-y-6">
-              <div
-                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 text-xs font-medium shadow-lg border border-blue-200 dark:border-blue-700"
-                data-aos="fade-down"
-              >
-                <div className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></div>
-                Available for new opportunities
+        {/* Hero Section */}
+        <section className="pt-32 pb-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-8">
+              <div className="space-y-4">
+                {/* Badge */}
+                <div
+                  className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 text-sm font-medium shadow-lg border border-blue-200 dark:border-blue-700 animate-fade-in"
+                  data-aos="fade-down"
+                >
+                  <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                  Available for new opportunities
+                </div>
+                {/* Name */}
+                <h1
+                  className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-gradient-text"
+                  data-aos="fade-up"
+                >
+                  <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
+                    {cv.name.split(' ')[0]}
+                  </span>
+                  <br />
+                  <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+                    {cv.name.split(' ').slice(1).join(' ')}
+                  </span>
+                </h1>
+                
+                {/* Headline */}
+                <p
+                  className="text-2xl text-gray-600 dark:text-gray-300 max-w-xl leading-relaxed"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  Communications Strategist · Operational Excellence
+                </p>
               </div>
-
-              <h1
-                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight"
-                data-aos="fade-up"
-              >
-                <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300 bg-clip-text text-transparent block">
-                  {cv.name.split(' ')[0]}
-                </span>
-                <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent block">
-                  {cv.name.split(' ').slice(1).join(' ')}
-                </span>
-              </h1>
-              
+              {/* Summary */}
               <p
-                className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 leading-relaxed"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                Communications Strategist · Operational Excellence
-              </p>
-
-              <p
-                className="text-sm sm:text-base text-gray-700 dark:text-gray-300 leading-relaxed"
+                className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-2xl leading-relaxed"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
                 {cv.summary}
               </p>
-
+              {/* Buttons */}
               <div
-                className="flex flex-col sm:flex-row gap-3 pt-4 z-10 relative"
+                className="flex flex-col sm:flex-row gap-4 pt-4"
                 data-aos="zoom-in"
                 data-aos-delay="600"
               >
-                <button 
-                  onClick={() => {
-                    const contactSection = document.getElementById('contact');
-                    if (contactSection) {
-                      contactSection.scrollIntoView({ 
-                        behavior: 'smooth',
-                        block: 'start'
-                      });
-                    }
-                  }}
-                  className="group inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 text-sm sm:text-base"
-                >
+                <a href="#contact" className="group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-1">
                   <span>Start Conversation</span>
-                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
-                </button>
+                </a>
+                <a href="/CV_Muhamad Alfito Dani.pdf" download className="group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl border-2 border-gray-300 dark:border-gray-600 font-semibold hover:border-blue-400 transition-all duration-300 hover:scale-105 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+                  <span>Download CV</span>
+                  <svg className="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </a>
               </div>
 
-              <div className="pt-4" data-aos="fade-up" data-aos-delay="800">
-                <div className="flex flex-wrap gap-2">
+              <div className="pt-6" data-aos="fade-up" data-aos-delay="800">
+                <div className="flex flex-wrap gap-3">
                   {['Administrative Support', 'Operational Coordination', 'Media Production'].map((skill) => (
-                    <div key={skill} className="px-3 py-1.5 rounded-full bg-white/80 dark:bg-gray-800/90 backdrop-blur-sm border border-gray-200 dark:border-gray-700 text-xs font-medium shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 text-gray-700 dark:text-gray-300">
+                    <div key={skill} className="px-4 py-2 rounded-full bg-white/80 dark:bg-gray-800/90 backdrop-blur-sm border border-gray-200 dark:border-gray-700 text-sm font-medium shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 text-gray-700 dark:text-gray-300">
                       {skill}
                     </div>
                   ))}
@@ -403,102 +401,109 @@ ${message}
               </div>
             </div>
 
-            {/* Flip Card - Versi Diperbaiki */}
-           <div
-  className="flex items-center justify-center mt-6 lg:mt-0 px-4 sm:px-0"
-  data-aos="zoom-in-up"
-  data-aos-delay="400"
->
-  <div className="relative w-full max-w-[280px] xs:max-w-[320px] sm:max-w-sm md:max-w-md h-72 xs:h-80 sm:h-96 group">
-    
-    {/* Main Card Container */}
-    <div className="relative w-full h-full rounded-2xl xs:rounded-3xl overflow-hidden shadow-xl sm:shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2 sm:hover:-translate-y-3">
-      
-      {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-purple-700 to-pink-600"></div>
-      
-      {/* Animated Background Elements */}
-      <div className="absolute inset-0 opacity-20 xs:opacity-30">
-        <div className="absolute -top-12 -right-12 xs:-top-16 xs:-right-16 w-24 h-24 xs:w-32 xs:h-32 bg-white/20 rounded-full animate-pulse-slow"></div>
-        <div className="absolute -bottom-12 -left-12 xs:-bottom-16 xs:-left-16 w-20 h-20 xs:w-28 xs:h-28 bg-white/20 rounded-full animate-pulse-slow" style={{animationDelay: '2s'}}></div>
-      </div>
-      
-      {/* Shine Effect */}
-      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 xs:via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
-      
-      {/* Card Content */}
-      <div className="relative h-full p-4 xs:p-5 sm:p-6 md:p-8 flex flex-col items-center justify-center text-white z-10">
-        
-        {/* Profile Image Container */}
-        <div className="relative mb-4 xs:mb-5 sm:mb-6 group/image">
-          {/* Outer Glow */}
-          <div className="absolute -inset-2 xs:-inset-3 sm:-inset-4 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 rounded-full opacity-40 xs:opacity-50 blur-lg xs:blur-xl group-hover/image:opacity-60 xs:group-hover/image:opacity-70 transition-all duration-500"></div>
-          
-          {/* Image Frame */}
-            <div className="relative w-24 h-24 xs:w-28 xs:h-28 sm:w-32 sm:h-36 md:w-36 md:h-40 rounded-xl xs:rounded-2xl border-[3px] xs:border-[4px] border-white/90 shadow-lg xs:shadow-xl sm:shadow-2xl overflow-hidden backdrop-blur-sm">
-              <img
-                src="/foto profil.jpg"
-                alt="Muhamad Alfito Ramadhan"
-                className="w-full h-full object-cover transform group-hover/image:scale-105 transition-transform duration-700"
-              />
-              
-              {/* Image Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20 opacity-0 group-hover/image:opacity-100 transition-opacity duration-500"></div>
-            </div>
-            
-            {/* Online Status Badge */}
-            <div className="absolute -bottom-2 -right-2 xs:-bottom-2 xs:-right-2 w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full border-[2px] xs:border-[3px] border-white shadow-md xs:shadow-lg flex items-center justify-center">
-              <div className="w-1.5 h-1.5 xs:w-2 xs:h-2 bg-white rounded-full animate-pulse"></div>
-            </div>
-          </div>
-
-          {/* Name & Title */}
-        <div className="text-center space-y-2 xs:space-y-2.5 sm:space-y-3 mb-4 xs:mb-5 sm:mb-6">
-          <h2 className="text-lg xs:text-xl sm:text-2xl md:text-3xl font-bold xs:font-black bg-gradient-to-r from-white to-white/90 bg-clip-text text-transparent leading-tight">
-            Muhamad Alfito Ramadhan
-          </h2>
-          <div className="flex items-center justify-center gap-1.5 xs:gap-2">
-            <div className="w-1.5 h-1.5 xs:w-2 xs:h-2 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full animate-pulse"></div>
-            <p className="text-white/80 font-medium xs:font-semibold text-xs xs:text-sm sm:text-base tracking-wide">
-              Communications Professional
-            </p>
-          </div>
-        </div>
-
-        {/* Skills Badges */}
-        <div className="flex flex-wrap gap-1.5 xs:gap-2 justify-center">
-          {cv.skills.technical.slice(0, 3).map((skill, idx) => (
-            <span 
-              key={idx}
-              className="px-2.5 py-1 xs:px-3 xs:py-1.5 bg-white/20 backdrop-blur-sm text-white/90 rounded-full text-[10px] xs:text-xs font-medium xs:font-semibold border border-white/30 hover:border-white/50 transition-all duration-300 hover:scale-105"
+            {/* Flip Card */}
+            <div
+              className="flex items-center justify-center"
+              data-aos="zoom-in-up"
+              data-aos-delay="400"
             >
-              {skill.name}
-            </span>
-          ))}
-        </div>
+              <div 
+                className={`card-container w-full max-w-md sm:w-96 h-[420px] sm:h-[500px] perspective-1000 cursor-pointer ${isAnimating ? 'pointer-events-none' : ''}`}
+                onClick={handleCardFlip}
+              >
+                <div className={`card relative w-full h-full transition-transform duration-600 preserve-3d ${isFlipped ? 'rotate-y-180' : ''}`}>
+                  
+                  {/* Front of Card */}
+                  <div className="card-face front absolute w-full h-full backface-hidden rounded-3xl overflow-hidden">
+                    <div className="w-full h-full bg-gradient-to-br from-blue-500 via-purple-600 to-pink-500 relative">
+                      {/* Animated Background Elements */}
+                      <div className="absolute inset-0 opacity-20">
+                        <div className="absolute top-10 left-10 w-20 h-20 bg-white rounded-full animate-pulse-slow"></div>
+                        <div className="absolute bottom-10 right-10 w-16 h-16 bg-white rounded-full animate-pulse-slow" style={{animationDelay: '1s'}}></div>
+                      </div>
+                      
+                      <div className="relative p-8 h-full flex flex-col items-center justify-center text-white">
+                        {/* Profile Image */}
+                        <div className="relative mb-6 group">
+                          <div className="absolute -inset-4 bg-white/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+                          <div className="relative w-48 h-48 sm:w-40 sm:h-40 rounded-2xl border-4 border-white/80 overflow-hidden shadow-2xl">
+                            <img 
+                              src="/foto profil.jpg" 
+                              alt={cv.name}
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                          <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-green-500 rounded-full border-2 border-white">
+                            <div className="w-full h-full bg-green-400 rounded-full animate-pulse"></div>
+                          </div>
+                        </div>
 
-      </div>
+                        {/* Name & Title */}
+                        <h2 className="text-3xl font-bold text-center mb-2">Muhamad Alfito Ramadhan</h2>
+                        <p className="text-white/80 text-center mb-6">Communications Professional</p>
 
-      {/* Floating Elements - Hidden on smallest screens */}
-      <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-500 hidden xs:block">
-        <div className="w-2 h-2 xs:w-3 xs:h-3 bg-yellow-400 rounded-full animate-bounce"></div>
-      </div>
-      
-      <div className="absolute bottom-3 left-3 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200 hidden xs:block">
-        <div className="w-1.5 h-1.5 xs:w-2 xs:h-2 bg-cyan-400 rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></div>
-      </div>
-    </div>
+                       
 
-    {/* Outer Glow Effect */}
-    <div className="absolute inset-0 bg-gradient-to-r from-blue-500/30 via-purple-500/30 to-pink-500/30 rounded-2xl xs:rounded-3xl blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></div>
-    
-    {/* Corner Decorations - Hidden on mobile */}
-    <div className="absolute -top-0.5 -left-0.5 w-4 h-4 border-t-2 border-l-2 border-blue-400/50 rounded-tl-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 hidden sm:block"></div>
-    <div className="absolute -top-0.5 -right-0.5 w-4 h-4 border-t-2 border-r-2 border-purple-400/50 rounded-tr-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 hidden sm:block"></div>
-    <div className="absolute -bottom-0.5 -left-0.5 w-4 h-4 border-b-2 border-l-2 border-pink-400/50 rounded-bl-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200 hidden sm:block"></div>
-    <div className="absolute -bottom-0.5 -right-0.5 w-4 h-4 border-b-2 border-r-2 border-cyan-400/50 rounded-br-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300 hidden sm:block"></div>
-  </div>
-</div>
+                        {/* Flip Hint */}
+                        <div className="flex items-center gap-2 text-white/60 text-sm">
+                          <span>Click to view details</span>
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Back of Card */}
+                  <div className="card-face back absolute w-full h-full backface-hidden rotate-y-180 rounded-3xl overflow-hidden">
+                    <div className="w-full h-full bg-gradient-to-br from-gray-800 via-gray-900 to-black relative">
+                      <div className="relative p-8 h-full flex flex-col">
+                        <h3 className="text-2xl font-bold text-white mb-4">Professional Profile</h3>
+                        
+                        {/* Summary */}
+                        <p className="text-gray-300 text-sm leading-relaxed mb-6 flex-1">
+                          {cv.summary}
+                        </p>
+
+                        {/* Quick Info */}
+                        <div className="space-y-3 mb-6">
+                          <div className="flex items-center gap-3 text-gray-300">
+                            <svg className="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 012 2z" />
+                            </svg>
+                            <span className="text-sm">{cv.email}</span>
+                          </div>
+                          <div className="flex items-center gap-3 text-gray-300">
+                            <svg className="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                            <span className="text-sm">{cv.phone}</span>
+                          </div>
+                        </div>
+
+                        {/* Skills Preview */}
+                        <div className="flex flex-wrap gap-2 mb-6">
+                          {cv.skills.technical.slice(0, 4).map((skill, idx) => (
+                            <span key={idx} className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-xs border border-blue-500/30">
+                              {skill.name}
+                            </span>
+                          ))}
+                        </div>
+
+                        {/* Flip Back Button */}
+                        <button className="w-full py-3 bg-white/10 hover:bg-white/20 text-white rounded-xl transition-all duration-300 flex items-center justify-center gap-2 group">
+                          <svg className="w-4 h-4 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                          </svg>
+                          Flip Back
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -664,6 +669,7 @@ ${message}
           </div>
         </section>
 
+
         {/* Projects Section */}
         <section id="projects" className="py-20 bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
@@ -795,14 +801,8 @@ ${message}
         <section id="skills" className="py-16 bg-white dark:bg-gray-800/50 backdrop-blur-sm px-4 sm:px-6">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6">
-                <span className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 dark:from-white dark:via-blue-200 dark:to-purple-200 bg-clip-text text-transparent">
-                  Skills
-                </span>
-                <br />
-                <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                  & Expertise
-                </span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 bg-clip-text text-transparent">
+                Skills & Expertise
               </h2>
             </div>
 
@@ -1071,7 +1071,7 @@ ${message}
                     <div className="flex items-center gap-3 p-3 bg-white dark:bg-gray-800 rounded-lg shadow-sm">
                       <div className="w-10 h-10 bg-purple-100 dark:bg-purple-900/40 rounded-lg flex items-center justify-center">
                         <svg className="w-5 h-5 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
                       </div>
                       <div>
@@ -1129,45 +1129,44 @@ ${message}
         </section>
 
         {/* Footer */}
-        <footer className="py-6 border-t bg-white dark:bg-gray-900">
+        <footer className="py-8 border-t bg-white dark:bg-gray-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
-            <div className="flex flex-col items-center gap-3">
-              <div className="text-base font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+              <div className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 Muhamad Alfito Ramadhan
               </div>
-              <div className="flex items-center gap-4">
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors text-sm">LinkedIn</a>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors text-sm">GitHub</a>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors text-sm">Twitter</a>
+              <div className="flex items-center gap-6 mt-4 md:mt-0">
+                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors">LinkedIn</a>
+                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors">GitHub</a>
+                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors">Twitter</a>
               </div>
             </div>
-            <div className="mt-3 text-xs text-gray-500 dark:text-gray-400">
+            <div className="mt-4 text-sm text-gray-500 dark:text-gray-400">
               &copy; {new Date().getFullYear()} Muhamad Alfito Ramadhan. Built with precision and passion.
             </div>
           </div>
         </footer>
       </div>
 
-      {/* Modals */}
       {modalProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-3 py-4">
-          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-2xl w-full max-w-sm sm:max-w-md p-4 relative max-h-[85vh] overflow-y-auto">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-2">
+          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl w-full max-w-lg sm:max-w-xl md:max-w-2xl p-4 sm:p-6 relative max-h-[90vh] overflow-y-auto">
             <button
-              className="absolute top-2 right-2 text-gray-500 hover:text-red-500 text-xl z-10 w-8 h-8 flex items-center justify-center"
+              className="absolute top-3 right-3 text-gray-500 hover:text-red-500 text-2xl"
               onClick={() => { setModalProject(null); setModalType(null); }}
               aria-label="Close"
             >×</button>
-            <h3 className="text-lg font-bold mb-3 text-gray-900 dark:text-white pr-6">{modalProject.title}</h3>
+            <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">{modalProject.title}</h3>
             {!modalType ? (
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-col gap-4">
                 <button
-                  className="w-full py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold text-sm"
+                  className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold"
                   onClick={() => setModalType('trailer')}
                 >
                   Lihat Trailer
                 </button>
                 <button
-                  className="w-full py-2.5 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-semibold text-sm"
+                  className="w-full py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-xl font-semibold"
                   onClick={() => setModalType('docs')}
                 >
                   Lihat Dokumentasi
@@ -1176,41 +1175,41 @@ ${message}
             ) : (
               <div>
                 {modalType === 'trailer' ? (
-                  <div className="aspect-w-16 aspect-h-9 mb-3">
+                  <div className="aspect-w-16 aspect-h-9 mb-4">
                     <iframe
                       src={modalProject.trailer}
                       title="Trailer"
                       frameBorder="0"
                       allow="autoplay; encrypted-media"
                       allowFullScreen
-                      className="w-full h-48 rounded-lg"
+                      className="w-full h-64 rounded-xl"
                     ></iframe>
                   </div>
                 ) : (
-                  <div className="space-y-3 mb-3">
+                  <div className="space-y-4 mb-4">
                     {Array.isArray(modalProject.docs) ? (
                       modalProject.docs.map((img, i) => (
                         <img
                           key={i}
                           src={img}
                           alt={`Dokumentasi ${i + 1}`}
-                          className="w-full rounded-lg shadow"
+                          className="w-full rounded-xl shadow"
                         />
                       ))
                     ) : (
                       <img
                         src={modalProject.docs}
                         alt="Dokumentasi"
-                        className="w-full rounded-lg shadow"
+                        className="w-full rounded-xl shadow"
                       />
                     )}
                   </div>
                 )}
                 <button
-                  className="w-full py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg font-semibold text-sm"
+                  className="w-full py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-xl font-semibold mt-2"
                   onClick={() => setModalType(null)}
                 >
-                  Kembali
+                  Kembali ke Pilihan
                 </button>
               </div>
             )}
@@ -1219,184 +1218,72 @@ ${message}
       )}
 
       {selectedCertificate && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 sm:p-6">
-          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl w-full max-w-lg overflow-hidden relative">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-2">
+          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl w-full max-w-md sm:max-w-lg md:max-w-xl p-0 relative max-h-[90vh] overflow-y-auto">
             {/* Close Button */}
             <button
-              className="absolute top-3 right-3 text-gray-500 hover:text-red-500 z-10 w-8 h-8 flex items-center justify-center bg-white/90 dark:bg-gray-800/90 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+              className="absolute top-3 right-3 text-gray-500 hover:text-red-500 text-2xl z-10"
               onClick={() => setSelectedCertificate(null)}
               aria-label="Close"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-
-            {/* Image Container */}
-            <div className="relative">
-              <div className="aspect-[4/3] w-full overflow-hidden bg-gray-100 dark:bg-gray-800">
-                <img
-                  src={selectedCertificate.image}
-                  alt={selectedCertificate.title}
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              
-              {/* Gradient Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+            >×</button>
+            {/* Certificate Image */}
+            <div className="rounded-t-2xl overflow-hidden">
+              <img
+                src={selectedCertificate.image}
+                alt={selectedCertificate.title}
+                className="w-full h-56 object-cover"
+              />
             </div>
-
-            {/* Content */}
-            <div className="relative p-6 bg-white dark:bg-gray-900">
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                {selectedCertificate.title}
-              </h3>
-              
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
-                  <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="text-sm font-semibold text-gray-900 dark:text-white">
-                    {selectedCertificate.issuer}
-                  </p>
-                  <p className="text-xs text-blue-600 dark:text-blue-400">
-                    {selectedCertificate.date}
-                  </p>
-                </div>
-              </div>
-
-              {/* Actions */}
-              <div className="flex gap-3">
-                <button
-                  className="flex-1 py-2.5 px-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold text-sm transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
-                  onClick={() => window.open(selectedCertificate.image, '_blank')}
-                >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                  </svg>
-                  <span>View Full Image</span>
-                </button>
-                
-                <button
-                  className="py-2.5 px-4 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-xl font-semibold text-sm transition-all duration-300 hover:bg-gray-200 dark:hover:bg-gray-700 shadow hover:shadow-md"
-                  onClick={() => setSelectedCertificate(null)}
-                >
-                  Close
-                </button>
-              </div>
+            {/* Certificate Details */}
+            <div className="p-6">
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{selectedCertificate.title}</h3>
+              <p className="text-base text-gray-600 dark:text-gray-300 mb-1">{selectedCertificate.issuer}</p>
+              <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold mb-4">{selectedCertificate.date}</p>
+              <button
+                className="w-full py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold mt-2 transition-all duration-300"
+                onClick={() => setSelectedCertificate(null)}
+              >
+                Close
+              </button>
             </div>
           </div>
         </div>
       )}
 
       <style jsx>{`
-        .flip-card {
+        .perspective-1000 {
           perspective: 1000px;
-          cursor: pointer;
         }
 
-        .flip-card-inner {
-          position: relative;
-          width: 100%;
-          height: 100%;
-          text-align: center;
-          transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        .preserve-3d {
           transform-style: preserve-3d;
         }
 
-        .flip-card-inner.flipped {
-          transform: rotateY(180deg);
-        }
-
-        @media (min-width: 1024px) {
-          .flip-card:hover .flip-card-inner:not(.flipped) {
-            transform: rotateY(5deg) scale(1.02);
-          }
-        }
-
-        .card-face {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          backface-visibility: hidden;
-          -webkit-backface-visibility: hidden;
-          border-radius: 1rem;
-          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-        }
-
-        .flip-card-back {
-          transform: rotateY(180deg);
-        }
-
-        /* Smooth scrolling */
-        html {
-          scroll-behavior: smooth;
-        }
-
-        /* Improved mobile touch targets */
-        @media (max-width: 640px) {
-          .flip-card {
-            max-width: 280px !important;
-            height: 320px !important;
-          }
-          
-          button, a {
-            min-height: 44px;
-            min-width: 44px;
-          }
-          
-          input, textarea {
-            font-size: 16px;
-          }
-        }
-
-        @media (min-width: 641px) and (max-width: 1024px) {
-          .flip-card {
-            max-width: 320px !important;
-            height: 360px !important;
-          }
-        }
-
-        /* Animation improvements */
-        .flip-card-inner {
+        .card {
           transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        /* Hover effects for desktop */
-        @media (min-width: 1024px) {
-          .flip-card:hover .flip-card-inner:not(.flipped) {
-            transform: rotateY(5deg) scale(1.02);
-            transition: transform 0.3s ease;
-          }
+        .card-face {
+          backface-visibility: hidden;
+          -webkit-backface-visibility: hidden;
         }
 
-        /* Accessibility improvements */
-        .flip-card:focus {
-          outline: 2px solid #3b82f6;
-          outline-offset: 2px;
+        .backface-hidden {
+          backface-visibility: hidden;
+          -webkit-backface-visibility: hidden;
         }
 
-        /* Scrollbar styling for back card */
-        .flip-card-back div::-webkit-scrollbar {
-          width: 4px;
+        .rotate-y-180 {
+          transform: rotateY(180deg);
         }
 
-        .flip-card-back div::-webkit-scrollbar-track {
-          background: rgba(255, 255, 255, 0.1);
-          border-radius: 2px;
+        @keyframes pulse-slow {
+          0%, 100% { opacity: 0.5; transform: scale(1); }
+          50% { opacity: 0.8; transform: scale(1.1); }
         }
 
-        .flip-card-back div::-webkit-scrollbar-thumb {
-          background: rgba(255, 255, 255, 0.3);
-          border-radius: 2px;
-        }
-
-        .flip-card-back div::-webkit-scrollbar-thumb:hover {
-          background: rgba(255, 255, 255, 0.5);
+        .animate-pulse-slow {
+          animation: pulse-slow 4s ease-in-out infinite;
         }
 
         .line-clamp-2 {
@@ -1406,11 +1293,13 @@ ${message}
           overflow: hidden;
         }
 
-        .line-clamp-3 {
-          display: -webkit-box;
-          -webkit-line-clamp: 3;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
+        /* Smooth hover effects */
+        .card-container:hover .card:not(.rotate-y-180) {
+          transform: translateY(-8px) rotateY(0deg);
+        }
+
+        .card-container:hover .card.rotate-y-180 {
+          transform: translateY(-8px) rotateY(180deg);
         }
       `}</style>
     </div>
