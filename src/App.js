@@ -1129,8 +1129,7 @@ ${message}
               <div className="flex items-center gap-4">
                 <a href="http://www.linkedin.com/in/muhamadalfito" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors text-sm">LinkedIn</a>
                 <a href="https://www.instagram.com/alftdani/?utm_source=ig_web_button_share_sheet" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors text-sm">Instagram</a>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors text-sm">Twitter</a>
-              </div>
+                </div>
             </div>
             <div className="mt-3 text-xs text-gray-500 dark:text-gray-400">
               &copy; {new Date().getFullYear()} Muhamad Alfito Ramadhan. Built with precision and passion.
