@@ -226,9 +226,9 @@ body.dark .card-bg, body.dark .section-bg {
 
 /* Gradient text for headings */
 .heading-gradient {
-  background: linear-gradient(90deg, #2563eb 0%, #7c3aed 100%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
+  background: linear-gradient(90deg, #2563eb 0%, #7c3aed 100%);
   color: transparent;
 }
 
@@ -374,10 +374,10 @@ textarea:focus {
   50% { background-position: 100% 50%; }
 }
 .animate-gradient-text {
+  -webkit-background-clip: text;
+  background-clip: text;
   background: linear-gradient(90deg,#2563eb,#7c3aed,#f472b6);
   background-size: 200% 200%;
-  background-clip: text;
-  -webkit-background-clip: text;
   color: transparent;
   animation: gradient-text-move 4s ease-in-out infinite;
 }
@@ -499,15 +499,56 @@ textarea:focus {
 /* Prevent text size adjustment on mobile */
 html {
   -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
-/* Smooth scrolling for better mobile experience */
+/* Fix image rendering compatibility */
+img {
+  -webkit-image-rendering: -webkit-optimize-contrast;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Fix background-clip order */
+.heading-gradient {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background: linear-gradient(90deg, #2563eb 0%, #7c3aed 100%);
+  color: transparent;
+}
+
+.animate-gradient-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background: linear-gradient(90deg,#2563eb,#7c3aed,#f472b6);
+  background-size: 200% 200%;
+  color: transparent;
+  animation: gradient-text-move 4s ease-in-out infinite;
+}
+
+/* Add scroll behavior fallback for iOS Safari < 15.4 */
+@supports not (scroll-behavior: smooth) {
+  html {
+    overflow: auto;
+  }
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  body {
+    position: relative;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-/* Optimize image rendering */
-img {
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
+/* Fix inset property for iOS Safari < 14.5 */
+.profile-card-container::before {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* Keep inset as progressive enhancement */
+  inset: 0;
 }

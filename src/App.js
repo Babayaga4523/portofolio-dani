@@ -140,8 +140,8 @@ const cv = {
 export default function App() {
   const [dark, setDark] = useState(false);
   const [selectedCertificate, setSelectedCertificate] = useState(null);
-  const [isFlipped, setIsFlipped] = useState(false);
-  const [isAnimating, setIsAnimating] = useState(false);
+  // removed unused isFlipped / isAnimating to satisfy ESLint `no-unused-vars`
+
   const [navOpen, setNavOpen] = useState(false);
   const [modalProject, setModalProject] = useState(null);
   const [modalType, setModalType] = useState(null);
@@ -202,6 +202,7 @@ ${message}
     });
   }, []);
 
+  // First useEffect with AOS event listener
   useEffect(() => {
     const handleAosEvent = (e) => {
       if (e.detail && e.detail.classList) {
@@ -225,8 +226,9 @@ ${message}
     };
     window.addEventListener('aos:in', handleAosEvent);
     return () => window.removeEventListener('aos:in', handleAosEvent);
-  }, [cv.skills.technical.length, cv.skills.soft.length]);
+  }, []); // Remove cv.skills dependencies since they're static
 
+  // Second useEffect with IntersectionObserver
   useEffect(() => {
     if (!window.IntersectionObserver) return;
 
@@ -258,7 +260,7 @@ ${message}
 
     skillRefs.current.forEach((el) => el && observer.observe(el));
     return () => observer.disconnect();
-  }, [cv.skills.technical.length, cv.skills.soft.length]);
+  }, []); // Remove cv.skills dependencies since they're static
 
   return (
     <div className={`${dark ? "dark" : ""}`}>
@@ -715,18 +717,7 @@ ${message}
                         </div>
                       )}
                     </div>
-
                     <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-                      <button
-                        type="button"
-                        onClick={() => { setModalProject(project); setModalType(null); }}
-                        className="flex items-center gap-2 px-4 py-2.5 bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm rounded-xl text-sm font-semibold text-gray-900 dark:text-white hover:bg-white dark:hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl"
-                      >
-                        <span>View Details</span>
-                        <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                      </button>
                     </div>
                   </div>
 
@@ -1136,8 +1127,8 @@ ${message}
                 Muhamad Alfito Ramadhan
               </div>
               <div className="flex items-center gap-4">
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors text-sm">LinkedIn</a>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors text-sm">GitHub</a>
+                <a href="http://www.linkedin.com/in/muhamadalfito" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors text-sm">LinkedIn</a>
+                <a href="https://www.instagram.com/alftdani/?utm_source=ig_web_button_share_sheet" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors text-sm">Instagram</a>
                 <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors text-sm">Twitter</a>
               </div>
             </div>
@@ -1256,7 +1247,7 @@ ${message}
                 <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                  </svg>
+                </svg>
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 dark:text-white">
@@ -1271,7 +1262,7 @@ ${message}
               {/* Actions */}
               <div className="flex gap-3">
                 <button
-                  className="flex-1 py-2.5 px-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold text-sm transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
+                  className="flex-1 py-2.5 px-4 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold text-sm transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
                   onClick={() => window.open(selectedCertificate.image, '_blank')}
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
