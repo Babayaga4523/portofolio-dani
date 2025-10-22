@@ -37,7 +37,6 @@ const cv = {
       ],
       docs: [
         "/Dpr 1.PNG",
-        "/Dpr 2.jpg",
         "/Dpr 3.jpg",
         "/Dpr 4.jpg",
       ]
