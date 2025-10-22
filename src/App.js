@@ -72,7 +72,7 @@ const cv = {
       title: "Penanggung Jawab – Bonding Festival \"Champion Spirit: Breaking the Limits\"",
       role: "Project Leader",
       date: "November 2023",
-      desc: "Berhasil Memimpin pelaksanaan sesuai timeline workshop dengan dihadiri oleh 50+ peserta",
+      desc: "Bertanggung jawab mengatur jalannya event, mulai dari perencanaan timeline, koordinasi lapangan dan wasit, hingga pengelolaan tim agar acara berjalan lancar.",
       image: "/bonding.jpg",
       docs: [
         "/bonding1.jpg",
@@ -95,7 +95,7 @@ const cv = {
       title: "Workshop Glo Radio: How To Be A Good Announcer",
       role: "Ketua Pelaksana",
       date: "Februari 2023",
-      desc: "Memimpin pelaksanaan, proposal, timeline, dan kebutuhan teknis workshop.",
+      desc: "Berhasil Memimpin pelaksanaan sesuai timeline workshop dengan dihadiri oleh 50+ peserta",
       image: "glo.PNG",
     },
     {
